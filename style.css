@@ -1,103 +1,128 @@
-* , body
-{
-    box-sizing: border-box;
-    background: rgb(205, 241, 240);
-    margin: 0;
-    padding: 0;
+*,
+body {
+  box-sizing: border-box;
+  background: rgb(205, 241, 240);
+  margin: 0;
+  padding: 0;
 }
-a
-{
-    text-decoration: solid;
-    color: black;
+a {
+  text-decoration: solid;
+  color: black;
 }
-#about_me
-{
-    padding-left: 100px;
-    padding-right: 100px;
+#about_me {
+  padding-left: 100px;
+  padding-right: 100px;
 }
-.center_div
-{
-    margin: 0 auto;
-    text-align: center;
+.center_div {
+  margin: 0 auto;
+  text-align: center;
 }
-.center_div a
-{
-    line-height: 40px;
-    word-wrap: break-word;
+.center_div a {
+  line-height: 40px;
+  word-wrap: break-word;
 }
-.center_heading
-{
-    background: rgb(205, 241, 240);
-    text-align: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
+.center_heading {
+  background: rgb(205, 241, 240);
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
-.center_image
-{
-    display: block;
-    margin: 0 auto;
-    margin-top: 30px;
-    margin-bottom: 20px;
-    
-    /* position: absolute;
+.center_image {
+  display: block;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 20px;
+
+  /* position: absolute;
     left: 50%;
     transform: translate(-50%);  */
-   
 }
-hr 
-{
-    /* display: inline; */
-    border: dotted rgba(1, 51, 49, 0.856) 8px;
-    color: rgb(205, 241, 240);
-    border-bottom: none;
-    width: 15%;
-    margin: 90px auto;
+hr {
+  /* display: inline; */
+  border: dotted rgba(1, 51, 49, 0.856) 8px;
+  color: rgb(205, 241, 240);
+  border-bottom: none;
+  width: 15%;
+  margin: 90px auto;
 }
-.main
-{
-    margin: 50px;
-    margin-top: 30px;
+.main {
+  margin: 50px;
+  margin-top: 30px;
 }
-.my_details
-{
-    line-height: 30px;
-    letter-spacing: 3px;
-    margin: 0 auto;
-    text-align: center;
+.my_details {
+  line-height: 30px;
+  letter-spacing: 3px;
+  margin: 0 auto;
+  text-align: center;
 }
-.profile_pic
-{
-    height: 200px;
-    border-radius: 50%;
+.profile_pic {
+  height: 200px;
+  border-radius: 50%;
 }
-.skill
-{
-    width: 150px;
-    border-radius: 30%;
+.skill {
+  width: 150px;
+  border-radius: 30%;
 }
-.skills_logo
-{
-    display: inline-block;
-    padding: 30px;
+.skills_logo {
+  display: inline-block;
+  padding: 30px;
 }
-.top_navbar
-{
-    margin: 0 20%;
+.top_navbar {
+  margin: 0 20%;
 }
-@media only screen and (max-width: 800px )
-{
-#about_me
-{
+.my_works {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.work-item {
+  height: 370px;
+  width: 300px;
+  background-color: rgb(43, 255, 220);
+  border-radius: 10px;
+}
+#NoteTaking img {
+  width: 300px;
+  height: 170px;
+  border-radius: 10px 10px 0 0;
+}
+#NoteTaking .work-content {
+  background-color: transparent;
+  padding: 20px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 1.5px;
+  word-spacing: 4px;
+}
+.work-links {
+  background-color: transparent;
+  height: 64px;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.work-links a {
+  display: inline-block;
+  width: 40%;
+  padding-top: 3px;
+  height: 50%;
+  border-radius: 4px;
+  background-color: tomato;
+}
+@media only screen and (max-width: 800px) {
+  #about_me {
     padding-left: 20px;
     padding-right: 20px;
-}
-.main
-{
+  }
+  .main {
     margin: 20px;
-}
-.top_navbar a
-{
-margin: 0 auto;
-padding: 10px;
-}
+  }
+  .top_navbar a {
+    margin: 0 auto;
+    padding: 10px;
+  }
 }
